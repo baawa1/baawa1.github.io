@@ -1,0 +1,343 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+h1{
+	font-family: 'Catamaran' ,Helvetica,Arial,sans-serif;
+	font-size: 50px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	line-height: 1.2
+}
+
+h2, h3 {
+	font-family: 'Catamaran' ,Helvetica,Arial,sans-serif;
+
+}
+
+/*Navigation Bar*/
+
+@media only screen and (min-width: 992px){
+	.bg-light{
+			background-color: transparent !important;
+	}
+}
+
+@media only screen and (max-width: 992px){
+	.navbar-nav > li>a {
+		color: black !important;
+		font-weight: 200;
+		font-size: 11px;
+		letter-spacing: 2px;
+	}
+}
+
+
+
+.navbar-brand{
+	color: #fdcc52 !important;
+	font-weight: 200;
+	letter-spacing: 1px;
+	font-size: 1.25rem;
+}
+
+.navbar-toggler{
+	font-size: 12px;
+	color: black !important;
+	padding: 8px 10px;
+	border: 0.5px solid lightgray !important;
+	border-radius: 0.25rem;
+}
+
+
+
+
+/*Hero section*/
+
+.hero{
+	background: #d40c55;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #dc2330, #d40c55, #c01e73, #a23389, #7c4396);  /* Chrome 10-25, Safari 5.1-6 */
+	background: url("img/bg-pattern.png"), linear-gradient(to right, #dc2330, #d40c55, #c01e73, #a23389, #7c4396);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100vh;
+}
+
+.img--section{
+	width: 325px;
+	position: relative;
+	bottom: 20em;
+	top: -20em;
+	right: 0;
+}
+
+
+.device{
+	position: absolute;
+}
+
+.screen{
+	position: absolute;
+	bottom: -36.2em;
+	left: 6%;
+	right: 6%;
+
+}
+
+.hero .content{
+	max-width: 500px;
+}
+
+
+
+.hero .btn{
+	cursor: pointer;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 15px 45px;
+	border-radius: 300px;
+}
+
+
+.hero .btn:hover {
+	background-color: #fcbd20;
+	border: 1px solid #fcbd20;
+}
+
+
+@media only screen and (max-width: 992px){
+	.hero h1 {
+		font-size: 30px
+	}
+
+	.hero{
+		height: auto;
+	}
+
+	.hero .content{
+		max-width: 100%;
+
+	}
+
+	.img--section{
+		position: static;
+	}
+
+	.test{
+		position: relative;
+		padding-bottom: 350px;
+		padding-top: 350px;
+	}
+
+	.device{
+		top: -0em;
+	}
+
+	.screen{
+		top: 4.5em;
+
+	}
+
+
+}
+
+
+
+
+
+/*Dicover*/
+
+.discover {
+	padding: 150px 0;
+	background: linear-gradient(#fdcc52,#fdc539);
+}
+
+
+.discover h1 {
+	font-size: 70px;
+	font-weight: 200;
+	letter-spacing: 1px;
+}
+
+
+.discover p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+
+.discover img {
+	height: 60px;
+
+}
+
+
+
+/*Unlimited*/
+
+.unlimited{
+	padding: 100px 0;
+}
+
+.unlimited h2{
+	font-size: 50px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.unlimited p {
+	font-size: 18px;
+	line-height: 1.8;
+	
+}
+
+.unlimited hr {
+	width: 20%;
+}
+
+.unlimited .section-heading {
+	padding-bottom: 100px;
+}
+
+.unlimited .fontawesome {
+	font-size: 80px;
+	color: #7b4397;
+}
+
+.unlimited h3{
+	font-size: 30px;
+	font-weight: 200;
+}
+
+.mockup {
+	padding: 50px 0;
+}
+
+
+
+.img--unlimited{
+	width: 325px;
+	position: relative;
+}
+
+
+/*waiting*/
+
+.waiting{
+	background-image: url("img/bg-cta.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 250px 0;
+	position: relative;
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:  100%;
+	background-color: rgba(0,0,0,.5);
+}
+
+.waiting h1{
+	font-size: 80px;
+	font-weight: 200;
+	max-width: 450px;
+	margin-bottom: 25px;
+
+}
+.waiting .btn{
+	cursor: pointer;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 15px 45px;
+	border-radius: 300px;
+}
+
+
+.waiting .btn:hover {
+	background-color: #fcbd20;
+	border: 1px solid #fcbd20;
+}
+
+
+
+/*friends*/
+
+.friends{
+	background: linear-gradient(#fdcc52,#fdc539);
+	padding: 100px 0;
+}
+
+.friends h2 i{
+	font-size: 50px;
+	color: #dd4b39;
+
+}
+
+
+.friends h2{
+	font-size: 50px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+
+
+.friends .fab{
+	font-size: 40px;
+	color: white;
+	border-radius: 50%;
+}
+
+.fa-twitter {
+	background-color: #1da1f2;
+	padding: 0.5em;
+}
+
+
+.fa-google-plus-g{
+	background-color: #dd4b39;
+	padding: 0.5em 0.4em;
+}
+
+
+.fa-facebook-f {
+	background-color: #3a5898;
+	padding: 0.5em 0.7em;
+}
+
+
+
+/*footer*/
+
+.footer{
+	background-color: #222;
+	padding: 25px 0;
+}
+
+.footer p{
+	font-size: 12px;
+	color: rgba(255,255,255,.3);
+	margin-bottom: 0;
+
+}
+
+.footer ul{
+	padding: 0;
+}
+
+.footer li{
+	display: inline-block;
+	font-size: 12px;
+	padding: 0 5px;
+	color: rgba(255,255,255,.3);
+	text-align: center;
+}

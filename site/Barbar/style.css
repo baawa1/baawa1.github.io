@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+	color: #FFBC67;
+	text-shadow: 2px 2px 2px #455C7B;
+
+	
+}
+
+h3, h4, h5{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+h2{
+	font-family: 'Lobster', cursive;
+	font-size: 32px;
+	text-decoration: underline;
+}
+
+/* Header */
+.navbar-nav{
+	padding-right: 20px;
+}
+
+.navbar-nav li{
+	padding-left: 20px;
+}
+
+.bg-dark{
+	background-color: transparent !important;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+header{
+	
+}
+
+.show{
+	/*background-color: red;*/
+}
+
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+/*<!-- Hero section -->*/
+
+.hero{
+	background-image: url("img/barber-divi-layout.jpg");
+	padding: 12em 0;
+	border: 1px solid black;
+	position: relative;
+	/*top: -55px;*/
+
+}
+
+.hero hr {
+	background-color: black;
+	width: 50%;
+
+}
+
+.hero p{
+	color: #455C7B;
+	font-size: 20px;
+}
+
+.btn{
+	padding: 15px	;
+	color:;
+	margin: 0 10px;
+	font-weight: 800;
+	/*text-shadow: 2px 2px 2px #455C7B;*/
+}
+
+.btn-outline-primary{
+	color: #FFBC67;
+	border: 1px solid #FFBC67;
+}
+
+.btn-outline-primary:hover{
+	color: #FFBC67;
+	background-color: #AC6C82;
+	border: 1px solid #AC6C82;
+}
+
+.btn-success{
+	background-color: #AC6C82;
+	border: 1px solid #AC6C82;
+}
+
+.btn-success:hover {
+	color: #AC6C82;
+	background-color: #FFBC67;
+	border: 1px solid #FFBC67;
+}
+
+
+
+/*Services*/
+
+#services{
+	padding: 2em;
+}
+
+.service--items:hover{
+	/*border: 1px solid black;*/
+	box-shadow: 0px 0px 5px 0px;
+}
+
+.fontawesome{
+	font-size: 7em;
+	padding-bottom: 0.5em;
+	color: #AC6C82;
+}
+
+#services hr{
+	background-color: #AC6C82;
+	width: 50%;
+}
+
+
+/*About*/
+
+#about{
+	padding: 5em 0;
+	background-color: #FFBC67;
+}
+
+#about button{
+	margin: 1em 0;
+}
+
+#about button:hover{
+	border: 1px solid #AC6C82;
+}
+
+
+
+/* Gallery */
+
+.image:hover{
+	opacity: 0.3
+}
+
+/*Footer*/
+
+#footer {
+	background-color: #455C7B;
+	padding: 5em;
+}
+
+#footer button{
+	margin: 0;
+}
+
+.footer--menu--itmes{
+	color: lightgray;
+	line-height: 0.8em;
+}
+
+.footer--menu--itmes:hover {
+	color: darkgray;
+}
+/*
+header.masthead {
+  padding-top: 20%;
+  padding-bottom: calc(25% - 56px);
+  background-image: url("");
+  background-position: center center;
+  background-size: cover;
+}*/
+
+
+
