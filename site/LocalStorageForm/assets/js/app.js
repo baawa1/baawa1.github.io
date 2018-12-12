@@ -45,6 +45,12 @@ function savetweet (e){
 
     addTweetsToLocalStorage(tweet);
 
+
+    alert('tweet Added');
+
+
+    this.reset();
+
 }
 
 
